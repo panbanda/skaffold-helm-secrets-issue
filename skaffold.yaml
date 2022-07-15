@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta28
+kind: Config
+
+metadata:
+  name: secrets
+
+deploy:
+  helm:
+    releases:
+      - name: secrets
+        chartPath: chart
+        useHelmSecrets: true
+        valuesFiles:
+          - secrets.yaml
