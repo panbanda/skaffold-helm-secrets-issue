@@ -18,3 +18,5 @@ skaffold dev
 # ie: ENC[AES256_GCM,data:SyyH6w==,iv:CbNC...
 skaffold render
 ```
+
+https://github.com/GoogleContainerTools/skaffold/issues/7651
